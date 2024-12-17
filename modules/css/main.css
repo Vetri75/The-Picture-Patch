@@ -466,6 +466,63 @@ body {
 }
 
 
+/* Sliding for Hdr,vs,ir */
+
+/* Main Slider Styling */
+.imageSlider {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-pair {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  /* Image Containers */
+  .image-containerr {
+    position: relative;
+    width: 48%;
+  }
+  
+  .image-containerr img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    /* border-radius: 5px; */
+  }
+  
+  /* Image Labels */
+  .image-label {
+    background-color: #1e1e27;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .before-icon,
+  .after-icon {
+    background-color: #d7263d;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  
+
+
 
 /* We are ----- */
 
@@ -741,7 +798,10 @@ body {
 .image-container img {
     display: block;
     width: 100%;
-    height: auto;
+    /* height: auto; */
+}
+.im-g-co img{
+    height: 650px !important;
 }
 .see-more {
     position: absolute;
